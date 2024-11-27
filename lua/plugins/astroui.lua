@@ -7,14 +7,15 @@
 
 -- Функция для определения типа проекта
 local function get_project_theme()
-  if vim.fn.filereadable "requirements.txt" == 1 then
-    return "gruvbox"
-  elseif vim.fn.filereadable "package.json" == 1 then
-    return "astrodark"
-  -- Добавьте другие условия для ваших проектов
-  else
-    return "astrotheme"
-  end
+  -- if vim.fn.filereadable "requirements.txt" == 1 then
+  --   return "gruvbox"
+  -- elseif vim.fn.filereadable "package.json" == 1 then
+  --   return "astrodark"
+  -- -- Добавьте другие условия для ваших проектов
+  -- else
+  --   return "astrotheme"
+  -- end
+  return "gruvbox"
 end
 
 ---@type LazySpec

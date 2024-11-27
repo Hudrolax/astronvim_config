@@ -48,7 +48,7 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
-        colorcolumn = "80",
+        colorcolumn = "121",
         autowrite = true,
         swapfile = false,
         hlsearch = true,
