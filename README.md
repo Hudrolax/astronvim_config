@@ -2,6 +2,8 @@
 
 **NOTE:** This is for AstroNvim v4+
 
+Install requirements from https://docs.astronvim.com/
+
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
