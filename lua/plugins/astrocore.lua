@@ -70,6 +70,9 @@ return {
         -- navigate buffer tabs
         ["<Leader>bn"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["<Leader>bb"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
+        ["<Leader>ai"] = { ":AI ", desc = "AI complete" },
+        ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
+        ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
@@ -111,6 +114,10 @@ return {
         ["{"] = "c{}<Esc>hp",
         ["A-j"] = ":m '>+1<CR>",
         ["A-k"] = ":m '>-2<CR>",
+        ["<Leader>ai"] = { ":AI ", desc = "AI complete" },
+        ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
+        ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
+        ["<Leader>ad"] = { ":AIEdit /docs<CR>", desc = "AI docsting" },
       },
 
       -- Режим терминала
