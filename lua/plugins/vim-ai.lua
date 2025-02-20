@@ -15,7 +15,7 @@ return {
       let g:vim_ai_chat = {
       \  "prompt": "",
       \  "options": {
-      \    "model": "gpt-4o-mini",
+      \    "model": "o3-mini",
       \    "temperature": 1,
       \    "stream": 1,
       \    "selection_boundary": "",
