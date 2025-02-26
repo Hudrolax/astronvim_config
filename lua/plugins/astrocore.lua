@@ -73,6 +73,7 @@ return {
         ["<Leader>ai"] = { ":AI ", desc = "AI complete" },
         ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
         ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
+        ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
@@ -84,6 +85,8 @@ return {
         ["ti"] = insert_ignore,
         ["A-j"] = ":m+<cr>",
         ["A-k"] = ":m-2<cr>",
+        ["<C-,>"] = ":vertical resize -5<cr>",
+        ["<C-.>"] = ":vertical resize +5<cr>"
 
         -- mappings seen under group name "Buffer"
         -- ["<Leader>bd"] = {

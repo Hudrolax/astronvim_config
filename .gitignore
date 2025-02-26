@@ -1,3 +1,6 @@
 # lock files
 *-lock.*
 .DS_Store
+*.aichat
+include.txt
+output.txt
