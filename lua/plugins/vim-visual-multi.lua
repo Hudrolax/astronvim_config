@@ -10,5 +10,6 @@ return {
     vim.g.VM_skip_shorter_lines = true
     vim.keymap.set("n", "<C-c>", "<Plug>(VM-Add-Cursor-Down)", { silent = true })
     vim.keymap.set("n", "<C-a>", "<Plug>(VM-Select-All)", { silent = true })
+    vim.keymap.set("v", "<C-a>", "<Plug>(VM-Visual-All)", { silent = true })
   end,
 }
