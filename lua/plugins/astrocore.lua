@@ -74,6 +74,8 @@ return {
         ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
         ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
         ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
+        ["<Leader>ar"] = { ":!platformio run<CR>", desc = "PlatformIO Run" },
+        ["<Leader>au"] = { ":!platformio run --target upload<<CR>", desc = "PlatformIO upload" },
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
@@ -121,6 +123,8 @@ return {
         ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
         ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
         ["<Leader>ad"] = { ":AIEdit /docs<CR>", desc = "AI docsting" },
+        ["<S-l>"] = "$",
+        ["<S-h>"] = "^",
       },
 
       -- Режим терминала
