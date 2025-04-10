@@ -74,8 +74,8 @@ return {
         ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
         ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
         ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
-        ["<Leader>ar"] = { ":!platformio run<CR>", desc = "PlatformIO Run" },
-        ["<Leader>au"] = { ":!platformio run --target upload<<CR>", desc = "PlatformIO upload" },
+        ["<Leader>ar"] = { ":pio run<CR>", desc = "PlatformIO Run" },
+        ["<Leader>au"] = { ":pio run --target upload<CR>", desc = "PlatformIO upload" },
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
