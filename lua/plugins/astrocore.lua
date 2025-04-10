@@ -76,6 +76,7 @@ return {
         ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
         ["<Leader>ar"] = { ":!pio run<CR>", desc = "PlatformIO Run" },
         ["<Leader>au"] = { ":!pio run --target upload<CR>", desc = "PlatformIO upload" },
+        ["<Leader>am"] = { ":!pio device monitor<CR>", desc = "PlatformIO device monitor" },
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
