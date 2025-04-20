@@ -17,7 +17,7 @@ return {
       let g:vim_ai_chat = {
       \  "prompt": "",
       \  "options": {
-      \    "model": "o3-mini",
+      \    "model": "gpt-4.1-mini",
       \    "temperature": 1,
       \    "stream": 1,
       \    "selection_boundary": "",
@@ -37,13 +37,15 @@ return {
       let s:initial_edit_prompt =<< trim END
       >>> system
 
-      Ты должен изменить часть кода согласно запросу. Не используй ``` для обрамления блоков кода.
+      Ты должен изменить часть кода согласно запросу. Не используй никаких символов для обрамления блоков кода.
+      В начале блока кода должно остаться столько же знаков пробела(или табуляции) сколько было в изначальном коде.
+      Не добавляй лишних символов, т.к. твой ответ будет использован "как есть" в коде.
       END
       let g:vim_ai_edit = {
       \  "prompt": "",
       \  "engine": "chat",
       \  "options": {
-      \    "model": "gpt-4o",
+      \    "model": "gpt-4.1-mini",
       \    "endpoint_url": "https://api.openai.com/v1/chat/completions",
       \    "max_tokens": 0,
       \    "max_completion_tokens": 0,
