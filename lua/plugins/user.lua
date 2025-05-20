@@ -10,7 +10,7 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     opts = function(_, opts)
       -- Установка ширины окна
-      opts.window.width = 40
+      opts.window.width = 35
       opts.close_if_last_window = true
 
       opts.window.mappings = {

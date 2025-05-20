@@ -80,7 +80,7 @@ return {
 
         ["<S-l>"] = "$",
         ["<S-h>"] = "^",
-        ["<C-4>"] = {
+        ["<Leader>ts"] = {
           function() require("toggleterm").toggle(nil, nil, nil, "float") end,
           desc = "Toggle float terminal",
         },
@@ -88,8 +88,8 @@ return {
         ["ti"] = insert_ignore,
         ["A-j"] = ":m+<cr>",
         ["A-k"] = ":m-2<cr>",
-        ["<C-,>"] = ":vertical resize -5<cr>",
-        ["<C-.>"] = ":vertical resize +5<cr>"
+        ["<Leader>bm"] = ":vertical resize -5<cr>",
+        ["<Leader>bM"] = ":vertical resize +5<cr>"
 
         -- mappings seen under group name "Buffer"
         -- ["<Leader>bd"] = {
@@ -132,7 +132,7 @@ return {
       t = {
         -- Пример сопоставления для возврата в нормальный режим из терминала
         -- ["<C-4>"] = ":<C-\\><C-n><C-w>l",
-        ["<C-4>"] = { function() require("toggleterm").toggle() end, desc = "Toggle float terminal" },
+        ["<Leader>ts"] = { function() require("toggleterm").toggle() end, desc = "Toggle float terminal" },
       },
     },
   },
