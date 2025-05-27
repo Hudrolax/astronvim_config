@@ -2,6 +2,8 @@
 
 **NOTE:** This is for AstroNvim v4+
 
+**NOTE2:** Main branch is for Windows + Alacritty terminal + Tmux. For MacOS use macos branch.
+
 Install requirements from https://docs.astronvim.com/
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
