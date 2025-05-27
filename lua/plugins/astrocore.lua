@@ -74,6 +74,7 @@ return {
         ["<Leader>ae"] = { ":AIEdit ", desc = "AI edit" },
         ["<Leader>ac"] = { ":AIChat ", desc = "AI chat" },
         ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
+        ["<Leader>at"] = { ":IncludeOpenTabs<cr>", desc = "Generate output.txt from open Tabs" },
         ["<Leader>ar"] = { ":!pio run<CR>", desc = "PlatformIO Run" },
         ["<Leader>au"] = { ":!pio run --target upload<CR>", desc = "PlatformIO upload" },
         ["<Leader>am"] = { ":!pio device monitor<CR>", desc = "PlatformIO device monitor" },

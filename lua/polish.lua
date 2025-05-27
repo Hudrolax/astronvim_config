@@ -56,6 +56,8 @@ vim.g.clipboard = {
   cache_enabled = 0,
 }
 
--- добавить сразу после блока return {...}
-vim.opt.shortmess:append "F"  -- скрыть сообщения вида “... written”
-vim.opt.shortmess:append "W"  -- (необязательно) скрыть сокращённые варианты
+vim.opt.shortmess:append("FW")
+vim.opt.more = false
+
+-- Переключаем ZZ на тихий write+quit без промтов
+vim.keymap.set('n', 'ZZ', ':silent! x<CR>', { noremap = true, silent = true })

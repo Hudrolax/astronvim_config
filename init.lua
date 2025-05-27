@@ -21,3 +21,4 @@ require "polish"
 
 -- Подключаем модуль для генерации содержимого файлов по маске
 require("include_files")
+require("include_open_tabs")
