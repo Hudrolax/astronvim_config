@@ -15,7 +15,8 @@ local function get_project_theme()
   -- else
   --   return "astrotheme"
   -- end
-  return "gruvbox"
+  -- return "gruvbox"
+  return "tokyonight"
 end
 
 ---@type LazySpec
