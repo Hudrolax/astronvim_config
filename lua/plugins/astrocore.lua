@@ -72,6 +72,9 @@ return {
           function() require("toggleterm").toggle(nil, nil, nil, "float") end,
           desc = "Toggle float terminal",
         },
+
+        ["<Leader>af"] = { ":IncludeFiles<cr>", desc = "Generate output.txt from include.txt" },
+        ["<Leader>at"] = { ":IncludeOpenTabs<cr>", desc = "Generate output.txt from open Tabs" },
       },
       v = {
         ["("] = "c()<Esc>hp",
