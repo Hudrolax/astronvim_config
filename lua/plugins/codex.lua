@@ -15,6 +15,18 @@ return {
       desc = "Toggle Codex popup or side-panel (⌥⌘B)",
       mode = { "n", "t" },
     },
+    {
+      "<D-M-и>",
+      function() require("codex").toggle() end,
+      desc = "Toggle Codex popup or side-panel (⌥⌘B)",
+      mode = { "n", "t" },
+    },
+    {
+      "<leader>ac",
+      function() require("codex").toggle() end,
+      desc = "Toggle Codex popup or side-panel (⌥⌘B)",
+      mode = { "n", "t" },
+    },
   },
   opts = {
     keymaps = {
