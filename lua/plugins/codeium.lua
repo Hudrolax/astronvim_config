@@ -6,7 +6,7 @@ return {
     vim.g.codeium_disable_bindings = 1
 
     -- Ctrl+y чтобы принять (как в coc.nvim или стандартном nvim)
-    vim.keymap.set("i", "<C-l>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
+    vim.keymap.set("i", "<C-y>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
 
     -- листать варианты впред
     vim.keymap.set(
