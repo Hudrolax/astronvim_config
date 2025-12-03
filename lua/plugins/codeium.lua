@@ -5,10 +5,10 @@ return {
     -- 1. Отключаем стандартные клавиши из картинки
     vim.g.codeium_disable_bindings = 1
 
-    -- Ctrl+y чтобы принять (как в coc.nvim или стандартном nvim)
-    vim.keymap.set("i", "<C-y>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
+    -- Ctrl+l чтобы принять
+    vim.keymap.set("i", "<C-l>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
 
-    -- листать варианты впред
+    -- листать варианты вперед
     vim.keymap.set(
       "i",
       "<C-k>",
