@@ -7,6 +7,7 @@ return {
 
     -- Ctrl+l чтобы принять
     vim.keymap.set("i", "<C-l>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
+    vim.keymap.set("i", "<right>", function() return vim.fn["codeium#Accept"]() end, { expr = true, silent = true })
 
     -- листать варианты вперед
     vim.keymap.set(
